@@ -1,0 +1,39 @@
+.odd {
+    background-color: yellow;
+}
+
+.even {
+    background-color: red;
+}
+
+.res {
+    margin: 0px 0px 0px 40px;
+}
+
+.integer {
+    background-color: cyan;
+}
+
+button {
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    height: 100px;
+    width: 100px;
+}
+
+button:hover {
+    background-color: red;
+    color: black;
+    transition: 500ms;
+}
+
+button:active {
+    border: 2px solid black;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    transition: 500ms;
+}
